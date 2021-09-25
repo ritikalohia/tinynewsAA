@@ -140,13 +140,13 @@
         </div>
 
         {% for post in posts%}
-        <div class="card mb-3 shadow p-2 mb-5 bg-body rounded" style="max-width: 900px;">
+        <div class="card mb-3 shadow p-3 mb-5 bg-body rounded" style="max-width: 900px;">
             <div class="row g-0 my-0">
                 <div class="col-md-5 news-card-image my-0">
                     <img src="/media/{{post.cover}}" class="img-fluid rounded-start" alt="{{post.title}}">
                 </div>
                 <div class="col-md-7">
-                    <div class="card-body py-0">
+                    <div class="card-body ">
                         <h5 class="card-title pb-1" style="font-size:22px;">{{post.title}}</h5>
                         <p class="card-text my-0"><small class="text-muted"><strong>Short by</strong>
                                 {{post.news_author}} / {{post.created_on}}, day</small></p>
